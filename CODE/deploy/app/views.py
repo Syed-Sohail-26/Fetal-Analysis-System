@@ -3,7 +3,7 @@ from django.shortcuts import render, redirect
 import numpy as np
 import joblib
 
-model = joblib.load('C:/Users/SPIRO15/Desktop/featal/deploy/app/MODEL.pkl')
+model = joblib.load('C:/Users/syed/Downloads/CODE/CODE/deploy/app/MODEL.pkl')
 
 # Create your views here.
 def home(request):
